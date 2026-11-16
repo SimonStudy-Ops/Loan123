@@ -25,7 +25,6 @@ coverage/
 packages/
 
 # ASP.NET / Razor generated files
-*.cshtml.cs
 wwwroot/lib/
 
 # Generated files
