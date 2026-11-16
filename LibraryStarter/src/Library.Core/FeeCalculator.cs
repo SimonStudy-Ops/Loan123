@@ -9,6 +9,6 @@ public class FeeCalculator
         if (daysLate <= 0)
             return 0m;
 
-        return daysLate * 5m;
+        return Math.Min(daysLate * 5m, 100m);
     }
 }
